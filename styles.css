@@ -1,21 +1,20 @@
 #board {
     padding: 3em;
-    text-align: center; 
+    text-align: center;
 }
 
-div > div {
+.row > .top, .left, .bottom, .right, .middle, .center {
     float: left;
     height: 100px;
     width: 100px;
-}
-
-.row {
-    clear: both;
-    margin: 0 auto;
-    width: 302px;
     cursor: pointer;
 }
 
+.row {
+    clear: left;
+    margin: 0 auto;
+    width: 302px;
+}
 
 .top {
     border-bottom: 1px purple solid;
