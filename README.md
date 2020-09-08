@@ -3,8 +3,9 @@
 In this lab, we're going to start building a web based Tic Tac Toe game!
 
 The first step is to build the actual game board, so let's get started!
----
-Project Setup
+
+Project Setup :
+
 Create a new folder in your Source directory and open it with VS Code.
 Create an index.html and styles.css file.
 Stub out the HTML file and add a <link> to the CSS file.
