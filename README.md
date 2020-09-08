@@ -1,9 +1,9 @@
 # TicTacToeCSS
----
+
 In this lab, we're going to start building a web based Tic Tac Toe game!
 
 The first step is to build the actual game board, so let's get started!
-
+---
 Project Setup
 Create a new folder in your Source directory and open it with VS Code.
 Create an index.html and styles.css file.
@@ -19,7 +19,8 @@ Nested within the board div, add 3 divs with a class of row.
 Within each div with class row, add 3 more divs.
 The 3 divs within each row (for 9 total) will be our squares where the player can place an X or O!
 Now, you need a way to identify each square. Logically, it makes sense that we have left squares, right squares, top squares, middle squares, and bottom squares. So, let's add classes to identify each square.
-For the first div in the first row, add a class for top and left. Your div should look like this <div class="top left"></div>.
+For the first div in the first row, add a class for top and left. 
+
 Now, we have a way to identify the top left square!
 We need to add identifiers for all the other squares as well, so let's continue:
 Add the classes top and middle for the next div in the first row, and hopefully, you see where this is going now. For the third div, add top and right classes.
